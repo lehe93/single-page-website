@@ -20,6 +20,7 @@ h1 {
 
 h1.main {
     margin-top: 30pt;
+    display: inline-block;
 }
 
 p {
@@ -69,23 +70,29 @@ p {
     border-top: 1px solid rgb(134,96,25);
     border-bottom: 1px solid rgb(134, 96, 25);
     text-align: center;
-    padding-top: 3%;
+    padding-top: 1.5%;
+    position: sticky;
 }
 
 #navi_container a {
     color: rgb(105, 76, 21);
-    font-size: 16pt;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-size: 20pt;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:100;
+    height: 100%;
     text-decoration: none;
     margin-left: 1%;
     margin-right: 1%;
-    padding: 5pt;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #navi_container a:hover {
     text-decoration: none;
-    color: #111;
+    color: #5d0d0d;
+    background: rgb(222, 164, 71);
 }
 
 #footer {
@@ -144,4 +151,12 @@ input.senden {
 input.senden:hover {
     background-color: rgb(90,64,16);
     color: white;
+}
+
+a.pfeil {
+    margin-left: 88%;
+}
+
+img.pfeil1 {
+    opacity: 0.5;
 }
